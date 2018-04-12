@@ -1,0 +1,24 @@
+{
+  "name": "starbucks-wifi-autoconnect",
+  "version": "1.0.0",
+  "description": "Reconnect automatically to Starbucks Wifi",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stevensacks/starbucks-wifi-autoconnect.git"
+  },
+  "author": "Steven Sacks",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stevensacks/starbucks-wifi-autoconnect/issues"
+  },
+  "homepage": "https://github.com/stevensacks/starbucks-wifi-autoconnect#readme",
+  "dependencies": {
+    "is-reachable": "^2.4.0",
+    "lodash": "^4.17.5",
+    "puppeteer": "^1.2.0"
+  }
+}
